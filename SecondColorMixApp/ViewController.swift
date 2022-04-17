@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     }
     
     private func roundToString(_ slider: UISlider) -> String {
-        return String(format: "%.2f", slider.value)
+        String(format: "%.2f", slider.value)
     }
     
     private func changeColor() {
